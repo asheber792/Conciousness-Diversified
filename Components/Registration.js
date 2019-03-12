@@ -18,7 +18,7 @@ export default class Registration extends Component {
 				password_confirmation: this.state.password_confirmation
 			}
 
-			await axios.post('http://58f6feea.ngrok.io/users', newUser)
+			await axios.post('https://nameless-woodland-89876.herokuapp.com/users', newUser)
 
 			this.setState({
 				user: newUser, 
