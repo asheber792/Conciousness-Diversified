@@ -16,7 +16,7 @@ export default class JournalEntry extends Component {
 
   	onEntryDelete = async evnt => {
   		try {
-  			await axios.delete(`http://58f6feea.ngrok.io/journal_entries/${this.state.entry.id}`)
+  			await axios.delete(`https://nameless-woodland-89876.herokuapp.com/journal_entries/${this.state.entry.id}`)
 
   			this.setState({
   				deleted: true

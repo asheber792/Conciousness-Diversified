@@ -14,7 +14,7 @@ export default class JournalEntries extends Component {
 
 	getEntryDate = async () => {
 		try{
-			const response = await axios.get('http://58f6feea.ngrok.io/journal_entries')
+			const response = await axios.get('https://nameless-woodland-89876.herokuapp.com/journal_entries')
 			console.log(response.data)
 
 			let entries = response.data.journal_entries 

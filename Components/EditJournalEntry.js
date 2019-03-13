@@ -19,7 +19,7 @@ export default class EditJournalEntry extends Component {
 				content: this.state.content	
 			}
 			
-			await axios.put(`http://58f6feea.ngrok.io/journal_entries/${this.state.entry.id}`, journalEntry)
+			await axios.put(`https://nameless-woodland-89876.herokuapp.com/journal_entries/${this.state.entry.id}`, journalEntry)
 
 			this.setState({
 				edited: true

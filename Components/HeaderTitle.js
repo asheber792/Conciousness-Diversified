@@ -8,7 +8,7 @@ export default class HeaderTitle extends React.Component {
   }
 
   onLogOut = async () => {
-    const response = await axios.delete('http://58f6feea.ngrok.io/logout')
+    const response = await axios.delete('https://nameless-woodland-89876.herokuapp.com/logout')
     
     this.setState({
       loggedOut: true
