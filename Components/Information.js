@@ -23,9 +23,9 @@ export default class Information extends Component {
 	        	<Text>
 	        		<Text style={{fontWeight: 'bold'}}>Consciousness Diversified</Text> is an app displaying information/instructions/techniques
 		        	of consciousness exploration in some of it's many capacites with methods such as
-		        	lucid dreaming, meditation, binaural beat, etc. You will be able to create and maintain
-		        	your own Experience/Dream Journal on you're profile, viewable by only you, to aid in your
-		        	jourrney.  
+		        	lucid dreaming, meditation, binaural beats, etc. You will be able to create and maintain
+		        	your own Experience/Dream Journal on you're profile, viewable only by you, to aid in your
+		        	journey.  
 	    		</Text>
 	        	<Text style={{fontWeight: 'bold', fontSize: 18}}>{"\n"}What is Consciousness?</Text> 
 	        	<Text>

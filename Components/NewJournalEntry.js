@@ -19,7 +19,7 @@ export default class NewJournalEntry extends Component {
 				content: this.state.content	
 			}
 
-			await axios.post('http://58f6feea.ngrok.io/journal_entries', newJournalEntry)
+			await axios.post('https://nameless-woodland-89876.herokuapp.com/journal_entries', newJournalEntry)
 
 			this.setState({
 				entry: newJournalEntry,
